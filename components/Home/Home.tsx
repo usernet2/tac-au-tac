@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Hero from './Hero/Hero'
 export const Home = () => {
   return (
-    <div className='overflow-hidden h-[100000px]'>Home</div>
+    <div className='overflow-hidden'>
+      <Hero />
+    </div>
   )
 }

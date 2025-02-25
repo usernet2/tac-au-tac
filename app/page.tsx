@@ -1,9 +1,9 @@
-import Image from "next/image";
+import { Home } from "@/components/Home/Home";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className='overflow-hidden h-[100000px]'>
-      <h1>Hello World</h1>
+    <div>
+      <Home />
     </div>
   );
 }

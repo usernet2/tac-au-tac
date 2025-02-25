@@ -23,12 +23,12 @@ const Nav = ({openNav}: Props) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <div className={`transition-all ${Navbg? "bg-white shadow-md":"fixed"} duration-200 h-[12vh] z-[100] fixed w-full ${Navbg ? 'bg-white' : 'bg-transparent'}`}>
+    <div className={`transition-all ${Navbg? "bg-white shadow-md":"fixed"} duration-200 h-[12vh] z-[100] fixed w-full ${Navbg ? 'bg-white' : 'bg-blue-950'}`}>
       <div className='flex justify-between items-center h-full w-[90%] xl:w-[80%] mx-auto'>
         <div className='flex items-center space-x-2'>
           <div className='w-10 h-10 rounded-full bg-blue-800 flax items-center justify-center flex-col'>
           </div>
-          <h1 className='text-xl hidden sm:block md:text-2xl text-blue-800 font-bold'>
+          <h1 className='text-xl hidden sm:block md:text-2xl text-white font-bold'>
             Tac au Tac
           </h1>
         </div>
@@ -36,7 +36,7 @@ const Nav = ({openNav}: Props) => {
         <div className='hidden lg:flex items-center space-x-10'>
           {Navlinks.map((link) => {
             return (
-              <Link key={link.id} href={link.url} className='text-black hover:text-rose-500 font-semibold transition-all duration-200'>
+              <Link key={link.id} href={link.url} className='text-white hover:text-rose-500 font-semibold transition-all duration-200'>
                 <p>{link.label}</p>
               </Link>
             );
@@ -53,7 +53,7 @@ const Nav = ({openNav}: Props) => {
               <span className="relative text-white">S'inscrire</span>
           </a>
           {/*burger menu*/}
-          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-black lg:hidden" />
+          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-white lg:hidden" />
         </div>
       </div>
     </div>
