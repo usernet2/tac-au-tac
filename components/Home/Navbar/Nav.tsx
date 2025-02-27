@@ -23,7 +23,7 @@ const Nav = ({openNav}: Props) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <div className={`transition-all ${Navbg? "bg-white shadow-md":"fixed"} duration-200 h-[12vh] z-[100] fixed w-full ${Navbg ? 'bg-white' : 'bg-blue-950'}`}>
+    <div className={`transition-all ${Navbg? "bg-blue-950 shadow-md":"fixed"} duration-200 h-[12vh] z-[100] fixed w-full ${Navbg ? 'bg-blue-950' : 'bg-blue-950'}`}>
       <div className='flex justify-between items-center h-full w-[90%] xl:w-[80%] mx-auto'>
         <div className='flex items-center space-x-2'>
           <div className='w-10 h-10 rounded-full bg-blue-800 flax items-center justify-center flex-col'>
