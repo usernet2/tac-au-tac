@@ -167,3 +167,167 @@ export const serviceR = [
         label: 'Montage avec HeyGen'
     }
 ]
+
+export const productlink = [
+    {
+        id: '1',
+        url: '#',
+        label: 'Overview'
+    },
+    {
+        id: '2',
+        url: '#',
+        label: 'Features'
+    },
+    {
+        id: '3',
+        url: '#',
+        label: 'Solutions'
+    },
+    {
+        id: '4',
+        url: '#',
+        label: 'Tutorials'
+    },
+    {
+        id: '5',
+        url: '#',
+        label: 'Pricing'
+    },
+    {
+        id: '6',
+        url: '#',
+        label: 'Releases'
+    },
+]
+
+export const companylink = [
+    {
+        id: '1',
+        url: '#',
+        label: 'About us'
+    },
+    {
+        id: '2',
+        url: '#',
+        label: 'Careers'
+    },
+    {
+        id: '3',
+        url: '#',
+        label: 'Press'
+    },
+    {
+        id: '4',
+        url: '#',
+        label: 'News'
+    },
+    {
+        id: '5',
+        url: '#',
+        label: 'Media kit'
+    },
+    {
+        id: '6',
+        url: '#',
+        label: 'Contact'
+    }
+]
+
+export const ressourceslink = [
+    {
+        id: '1',
+        url: '#',
+        label: 'Blog'
+    },
+    {
+        id: '2',
+        url: '#',
+        label: 'Newsletter'
+    },
+    {
+        id: '3',
+        url: '#',
+        label: 'Events'
+    },
+    {
+        id: '4',
+        url: '#',
+        label: 'Help centre'
+    },
+    {
+        id: '5',
+        url: '#',
+        label: 'Tutorials'
+    },
+    {
+        id: '6',
+        url: '#',
+        label: 'Support'
+    }
+]
+
+export const sociallink = [
+    {
+        id: '1',
+        url: '#',
+        label: 'Twitter'
+    },
+    {
+        id: '2',
+        url: '#',
+        label: 'LinkedIn'
+    },
+    {
+        id: '3',
+        url: '#',
+        label: 'Facebook'
+    },
+    {
+        id: '4',
+        url: '#',
+        label: 'GitHub'
+    },
+    {
+        id: '5',
+        url: '#',
+        label: 'AngelList'
+    },
+    {
+        id: '6',
+        url: '#',
+        label: 'Dribbble'
+    }
+]
+ export const legallink =[
+    {
+        id: '1',
+        url: '#',
+        label: 'Terms'
+    },
+    {
+        id: '2',
+        url: '#',
+        label: 'Privacy'
+    },
+    {
+        id: '3',
+        url: '#',
+        label: 'Cookies'
+    },
+    {
+        id: '4',
+        url: '#',
+        label: 'Licenses'
+    },
+    {
+        id: '5',
+        url: '#',
+        label: 'Settings'
+    },
+    {
+        id: '6',
+        url: '#',
+        label: 'Contact'
+    }
+ ]

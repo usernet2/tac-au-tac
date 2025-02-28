@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="relative w-full h-[110vh] sm:h-screen bg-[url('/images/bg1.jpg')] bg-cover bg-center mt-[12vh]">
         <div className="absolute inset-0 flex justify-center flex-col ">
-            <div className="w-[90%] md:w-[80%] mx-auto itels-center grid grid-cols-1">
+            <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1">
                 <h1 className='text-white text-3xl md:text-5xl lg:text-6xl mt-6 mb-4 font-bold leading-[2.5rem] md:leading-[3.5rem] tracking-tighter sm:tracking-normal'>
                     BIENVENU SUR TAC AU TAC  
                     <br className='mb-4' /> 

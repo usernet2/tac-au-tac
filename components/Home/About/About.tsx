@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const About = () => {
   return (
-    <div className="relative w-full md:h-[110vh] sm:h-screen bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#251374] via-[#161147] to-[#070A28]">
+    <div className="relative w-full md:h-[115vh] sm:h-screen bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#251374] via-[#161147] to-[#070A28]">
         <div className="absolute inset-0 flex justify-start flex-col">
             <div className="w-[90%] md:w-[90%] mx-auto">
                 <div className="mt-10">

@@ -3,7 +3,7 @@ import { serviceL, serviceR } from '../../../constant/constant'
 
 const Feature = () => {
   return (
-    <div className="relative w-full md:h-[110vh] sm:h-screen bg-gradient-to-b from-[#4624DA] to-[#251374]">
+    <div className="relative w-full md:h-[180vh] sm:h-screen bg-gradient-to-b from-[#4624DA] to-[#251374]">
         <div className="absolute inset-0 flex justify-start flex-col">
             <div className="w-[90%] md:w-[90%] mx-auto">
                 <div className="mt-10">
@@ -14,10 +14,10 @@ const Feature = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="p-6">
                         <div className="flex flex-col items-start">
-                            <ul className="text-white/80 space-y-3">
+                            <ul className="text-white/80 space-y-3 font-['Inter'] text-[30px] font-semibold leading-[120%] tracking-[0%] indent-[1px]">
                                 {serviceL.map((service) => (
                                     <li key={service.id} className="flex items-center">
-                                        {service.label}
+                                        • {service.label}
                                     </li>
                                 ))}
                             </ul>
@@ -25,10 +25,10 @@ const Feature = () => {
                     </div>
                     <div className="p-6">
                         <div className="flex flex-col items-start">
-                            <ul className="text-white/80 space-y-3">
+                            <ul className="text-white/80 space-y-3 font-['Inter'] text-[30px] font-semibold leading-[120%] tracking-[0%] indent-[1px]">
                                 {serviceR.map((service) => (
                                     <li key={service.id} className="flex items-center">
-                                        {service.label}
+                                        • {service.label}
                                     </li>
                                 ))}
                             </ul>
