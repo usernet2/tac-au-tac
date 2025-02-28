@@ -16,8 +16,10 @@ const Temoignages = () => {
                         <p className="text-white/80 font-['Inter'] text-[24px] font-medium leading-[36px] tracking-[0%]">"Mon sites marche parfaitement bien"</p>
                     </div>
                     <div className="flex items-center space-x-3 mt-8">
-                        <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden">
-                            <img src="/avatar1.jpg" alt="Avatar" className="w-full h-full object-cover" />
+                        <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                            </svg>
                         </div>
                         <span className="text-white font-medium">Jean Dupont</span>
                     </div>
@@ -27,8 +29,10 @@ const Temoignages = () => {
                         <p className="text-white/80 font-['Inter'] text-[24px] font-medium leading-[36px] tracking-[0%]">"Les fonctionalités prédéfinit facilite mon travail "</p>
                     </div>
                     <div className="flex items-center space-x-3 mt-8">
-                        <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden">
-                            <img src="/avatar2.jpg" alt="Avatar" className="w-full h-full object-cover" />
+                    <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                            </svg>
                         </div>
                         <span className="text-white font-medium">Marie Martin</span>
                     </div>
@@ -38,8 +42,10 @@ const Temoignages = () => {
                         <p className="text-white/80 font-['Inter'] text-[24px] font-medium leading-[36px] tracking-[0%]">"Je gère mieux mon entreprise "</p>
                     </div>
                     <div className="flex items-center space-x-3 mt-8">
-                        <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden">
-                            <img src="/avatar3.jpg" alt="Avatar" className="w-full h-full object-cover" />
+                    <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                            </svg>
                         </div>
                         <span className="text-white font-medium">Pierre Dubois</span>
                     </div>
