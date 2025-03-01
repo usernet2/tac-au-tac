@@ -1,11 +1,13 @@
 import React from 'react'
-import Hero from './Hero/Hero'
-import About from './About/About'
-import Feature from './Feature/Feature'
-import Temoignages from './Temoignages/Temoignages'
-import Offre from './Offre/Offre'
+import dynamic from 'next/dynamic'
 
-export const Home = () => {
+const Hero = dynamic(() => import('./Hero/Hero'))
+const About = dynamic(() => import('./About/About'))
+const Feature = dynamic(() => import('./Feature/Feature'))
+const Temoignages = dynamic(() => import('./Temoignages/Temoignages'))
+const Offre = dynamic(() => import('./Offre/Offre'))
+
+const Home = () => {
   return (
     <div className='overflow-hidden'>
       <Hero />
@@ -16,3 +18,4 @@ export const Home = () => {
     </div>
   )
 }
+export default Home;
