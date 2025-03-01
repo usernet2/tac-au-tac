@@ -72,7 +72,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className="w-full h-[20vh] bg-[#101828] flex justify-between items-center px-8">
+            <div className="w-full h-[20vh] bg-[#101828] flex justify-between items-center px-8 mb-6">
                 <div className="text-white text-lg">
                     © 2025 Tac au Tac Busines.
                 </div>
